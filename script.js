@@ -1,5 +1,6 @@
 function validateForm(event) {
-    let password = document.getElementById("password").value;
+    // let password = document.getElementById("password").value;
+    let password = $('#password').val();
 
     if (!isPasswordValid(password)) {
         alert("Password must be exactly 9 characters long, with 4 chars contain and 3 numbers, 1 symbol (@#$%^&*), and have one uppercase letter.");

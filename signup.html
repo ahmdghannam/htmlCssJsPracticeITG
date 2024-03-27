@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign up</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="script.js"></script>
    <link rel="stylesheet" href="signupstyle.css">
 </head>
@@ -11,7 +12,7 @@
 
     <h1>Sign up</h1>
 
-    <form onsubmit="validateForm(event)" action="profile.html" method="post">
+    <form onsubmit="validateForm(event)" action="profile.html" method="get">
         <label for="username">User name:</label>
         <input type="text" id="username" name="username" value="">
         <label for="password">Password:</label>
